@@ -1,0 +1,41 @@
+.container {
+  width: 80%;
+  margin: auto;
+  height: 50rem;
+}
+.section-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 1rem;
+}
+.section-container-start {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+.thead {
+  background-color: rgb(36, 35, 35);
+  color: #fff;
+}
+tr th,
+tr td {
+  /* width: 10rem; */
+  padding: 1rem 3rem;
+}
+tbody tr:nth-child(even) {
+  background-color: rgb(178, 174, 174);
+}
+
+table {
+  border-collapse: collapse;
+  flex: 1;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  color: cornflowerblue;
+}
+.actions p {
+  cursor: pointer;
+}
